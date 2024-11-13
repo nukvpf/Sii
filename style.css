@@ -1,0 +1,78 @@
+/* Стили для навигационного меню */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: #ff66b2;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #ff3385;
+    border-radius: 5px;
+}
+
+/* Основное содержимое */
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffe6f2;
+    margin: 10px 0;
+}
+
+#home h1, #home p, #home h2 {
+    color: #ff66b2;
+}
+
+/* Скрываем элементы по умолчанию */
+.hidden {
+    display: none;
+}
+
+/* Блок меню */
+#menu {
+    background-color: #ffe6f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Контейнер для меню блюд */
+.menu-container {
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    align-items: center;    /* Выравниваем по центру */
+}
+
+/* Стиль для каждого блюда */
+.food-item {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Увеличиваем изображение и выравниваем по центру */
+.food-item img {
+    width: 300px; /* Ширина изображения (можете изменить размер, если нужно) */
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto; /* Выравнивание по центру */
+}
+
+/* Текст под изображением */
+.food-item p {
+    margin-top: 10px;
+    font-size: 1.5em; /* Размер текста для названия блюда */
+    font-weight: bold;
+    color: #ff3385;
+}

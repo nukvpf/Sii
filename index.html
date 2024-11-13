@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для любимки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Навигационное меню -->
+    <nav>
+        <ul>
+            <li><a href="javascript:void(0)" onclick="showHome()">Главная</a></li>
+            <li><a href="javascript:void(0)" onclick="showMenu()">Меню</a></li>
+        </ul>
+    </nav>
+
+    <!-- Главная страница (будет скрыта при переходе в меню) -->
+    <section id="home">
+        <h1>Приятного выбора!</h1>
+        <p>люблю тебя.</p>
+        <h2>Любимка</h2>
+    </section>
+
+    <!-- Блок меню (изначально скрыт) -->
+    <section id="menu" class="hidden">
+        <h2>Наше меню</h2>
+        <div class="menu-container">
+            <div class="food-item">
+                <img src="https://shuba.life/static/content/thumbs/1905x884/9/f1/jwiywm---c1905x884x50px50p-up--62c900ab240ef3381e8d21ed958c4f19.jpg" alt="Макароны по-флотски">
+                <p>Макароны по-флотски</p>
+            </div>
+            <div class="food-item">
+                <img src="https://s1.eda.ru/StaticContent/Photos/120131083619/170816150250/p_O.jpg" alt="Суп">
+                <p>Суп</p>
+            </div>
+            <div class="food-item">
+                <img src="https://images.gastronom.ru/E8fr75XaLj-EtZ-0Z5H-92kRQsRkwHMG0vw_17oooPY/pr:recipe-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzY2ZGFmOTdlLThkMDItNGFiZi1hYWQxLTg2NDRlNTU2ZjhjMC5qcGc.webp" alt="Гнезда">
+                <p>Гнезда</p>
+ </div>
+            <div class="food-item">
+                <img src="https://static.1000.menu/img/content-v2/53/4f/8829/myasnye-kotlety-iz-farsha-na-skovorode_1624773673_3_max.jpg" alt="Котлеты">
+                <p>Котлеты</p>
+            </div>
+            <div class="food-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJN_OkL97ltBDE1nCabOGG1uVaDSQXHDfdCw&s" alt="Блины">
+                <p>Блины</p>
+            </div>
+            <div class="food-item">
+                <img src="https://images.gastronom.ru/loCBqRdFjtGCKOZvc4X3e_7AosC6U-HkvPphb33duuk/pr:article-preview-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzL2U5N2RmMTQ1LWE0MzItNGE1Ny1hM2E2LTc0Y2JiODdjMjI4ZS5qcGc.webp" alt="Рис">
+                <p>Рис</p>
+ </div>
+            <div class="food-item">
+                <img src="https://karalevna.com.ua/wp-content/uploads/2024/02/2ee9d5ff2b993933f2b68566a0c474ea.png" alt="Плов">
+                <p>Плов</p>
+ </div>
+            <div class="food-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvVmcA1qfWHqVQGYf0sadfbZXns0crVWYY7Q&s" alt="Ризотто">
+                <p>Ризотто</p>
+ </div>
+            <div class="food-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/640px-Espaguetis_carbonara.jpg" alt="Карбонара">
+                <p>Карбонара</p>
+ </div>
+            <div class="food-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9QlsKj75q97RZapn1uVSpfw1ydJafpq9N8g&s" alt="Лазанья">
+                <p>Лазанья</p>
+</div>
+            <div class="food-item">
+                <img src="https://i.obozrevatel.com/food/recipemain/2019/6/25/k-2633-00.jpg?size=636x424" alt="Мясо в соевом соусе">
+                <p>Мясо в соевом соусе</p>
+</div>
+            <div class="food-item">
+                <img src="https://cdn.nur.kz/images/1120x630/66ba1250804718e7.jpeg" alt="Нагетсы">
+                <p>Нагетсы</p>
+</div>
+            <div class="food-item">
+                <img src="https://klopotenko.com/wp-content/uploads/2021/04/pasta-s-moreproduktami_siteweb-1-1000x600.jpg?v=1618941726" alt="Паста с морепродуктами">
+                <p>Паста с морепродуктами</p>
+</div>
+            <div class="food-item">
+                <img src="https://smachno.ua/wp-content/uploads/2008/06/31e35b2913ac8ef1281b96fa9b4310a0_cropped_612x412-612x400.jpg" alt="Окрошка">
+                <p>Окрошка</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
